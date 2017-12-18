@@ -9,9 +9,9 @@
     <link rel="icon" href="../favicon.ico">
 
     <title>Book Store</title>
-   
+
     <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
-   
+
     <link href="navbar-fixed-top.css" rel="stylesheet">
 
     <script src="../assets/js/ie-emulation-modes-warning.js"></script>
@@ -81,6 +81,7 @@ button.button {
     background: url(../picture/bg-title-block.png) repeat 0 0;
 }
 </style>
+
   </head>
 
   <body>
@@ -94,11 +95,11 @@ button.button {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="content.php">Book Store</a>
+          <a class="navbar-brand" href="index.php">Book Store</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="content.php">Home</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
@@ -120,7 +121,7 @@ button.button {
                     </form>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="signin/signin.php">Sign in</a></li>
-            <li><a href="register/register.php">Register</a></li> 
+            <li><a href="register/register.php">Register</a></li>
             <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div>
@@ -132,6 +133,7 @@ button.button {
       <div class="jumbotron">
         <h1>Online Book Store</h1>
         <p>Find any book and every book you want here.</p>
+
 <br>
         <div class="input-group input-group-lg">
           <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon1">
@@ -147,11 +149,11 @@ button.button {
 			<div class="catalog_carousel" data-jcarousel="true">
 				<ul class="category">
 				<li>
-						<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/ki_%C5%9F%C9%99h%C9%99rin_hekay%C9%99ti_/" class="cat_img">
+						<a href="ikiShereinHekayeti.php" class="cat_img">
 							<img src="../picture/1.jpg" width="120" height="165" alt="">
 						</a>
 						<div class="cat_name">
-							<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/ki_%C5%9F%C9%99h%C9%99rin_hekay%C9%99ti_/" title="İki şəhərin hekayəti ">
+							<a href="ikiShereinHekayeti.php" title="İki şəhərin hekayəti ">
 								İki şəhərin hekayəti							
 							</a>
 						</div>
@@ -169,11 +171,11 @@ button.button {
 					
 
 				<li>
-						<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/ix_karl%C4%B1n_hakimiyy%C9%99t_tarix%C3%A7%C9%99si/" class="cat_img">
+						<a href="karlinHakimiyyeti.php" class="cat_img">
 							<img src="../picture/2.png" width="120" height="179" alt="">
 						</a>
 						<div class="cat_name">
-							<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/ix_karl%C4%B1n_hakimiyy%C9%99t_tarix%C3%A7%C9%99si/" title="IX Karlın hakimiyyət tarixçəsi">
+							<a href="karlinHakimiyyeti.php" title="IX Karlın hakimiyyət tarixçəsi">
 								IX Karlın hakimiyyət tarixçəsi</a>
 						</div>
 						<div class="cat_price">
@@ -189,11 +191,11 @@ button.button {
 				</li>
 				
 				<li>
-						<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/tmi%C5%9F_d%C3%BCnya/" class="cat_img">
+						<a href="itmisDunya.php" class="cat_img">
 							<img src="../picture/3.jpg" width="120" height="176" alt="">
 						</a>
 							<div class="cat_name">
-								<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/tmi%C5%9F_d%C3%BCnya/" title="İtmiş dünya">
+								<a href="itmisDunya.php" title="İtmiş dünya">
 									İtmiş dünya	
 								</a>
 							</div>
@@ -208,35 +210,159 @@ button.button {
 								<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('668127','8');"><span><span>Tıkla-al</span></span></button>
 							</div>
 				</li>
-				
-				<li>
-						<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/getm%C9%99/" class="cat_img">
-							<img src="../picture/4.jpg" width="117" height="180" alt="">
-						</a>
-						
-						<div class="cat_name">
-							<a href="/catalog/knigi-na-azerbaydzhanskom-yazyke/getm%C9%99/" title="Getmə">
-								Getmə
-							</a>
-						</div>
-						<div class="cat_price">
-							<div>
-								5,94 AZN
-							</div>
-						</div>
-													<div>
-							<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=668130'"><span><span>Səbətə əlavə et!</span></span></button>
-																	&nbsp;
-							<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('668130','8');"><span><span>Tıkla-al</span></span></button>
-						</div>
-				</li>
+			
 				
 				</ul>
 			</div>
 		</div>
 	  </div>
-
-    </div> 
+	  
+	  <div class="jumbotron">
+	  <div class="ma-featured-sldier-title"> 
+	        	<h3>Yeni Rus nəşrləri</h3>
+	       	</div>
+			<div class="catalog_carousel_container" id="catalog_carousel_container_255">
+				<div class="catalog_carousel" data-jcarousel="true">
+					<ul class="category">
+					<li>
+						<a href="Среди тысячи лиц.php" class="cat_img">
+							<img src="../picture/4.jpg" width="115" height="180" alt="">
+						</a>
+						<div class="cat_name">
+							<a href="Среди тысячи лиц.php" title="Среди тысячи лиц">
+								   Среди тысячи лиц							</a>
+						</div>
+						<div class="cat_price">
+		
+							<div>
+								10,80 AZN							
+							</div>
+						</div>
+							<div>
+								<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=667978'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+								<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('667978','8');"><span><span>Tıkla-al</span></span></button>
+							</div>
+					</li>
+					
+					<li>
+						<a href="rus2.php" class="cat_img">
+							<img src="../picture/5.jpg" width="111" height="180" alt="">
+						</a> 
+						<div class="cat_name">
+							<a href="rus2.php" title="Ловец огней на звездном поле">
+								Ловец огней на звездном							</a>
+								
+						</div>
+						<div class="cat_price">
+						
+							<div>
+								10,20 AZN							
+							</div>
+						</div>
+								<div>
+									<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=668000'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+									<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('668000','8');"><span><span>Tıkla-al</span></span></button>
+								</div>
+					</li>
+					
+					<li>
+						<a href="rus3.php" class="cat_img">
+							<img src="../picture/6.jpg" width="114" height="180" alt="">
+						</a>
+						<div class="cat_name">
+							<a href="rus3.php" title="Большое свинство">
+								Большое свинство							</a>
+						</div>
+						<div class="cat_price">
+														<div>
+								8,33 AZN							</div>
+						</div>
+								<div>
+									<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=668004'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+									<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('668004','8');"><span><span>Tıkla-al</span></span></button>
+								</div>
+					</li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>		
+		
+		
+		 <div class="jumbotron">
+	  <div class="ma-featured-sldier-title"> 
+	        	<h3>Yeni Türk nəşrləri</h3>
+	       	</div>
+			<div class="catalog_carousel_container" id="catalog_carousel_container_255">
+				<div class="catalog_carousel" data-jcarousel="true">
+					<ul class="category">
+					
+					<li>
+						<a href="turk1.php" class="cat_img">
+							<img src="../picture/7.jpg" width="120" height="159" alt="">
+						</a>
+						<div class="cat_name">
+							<a href="turk1.php" title="Asi Kızlara Uykudan Önce Hikayeler">
+								Asi Kızlar							</a>
+						</div>
+						<div class="cat_price">
+														<div>
+								28,90 AZN							</div>
+						</div>
+													<div>
+								<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=663539'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+									<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('663539','8');"><span><span>Tıkla-al</span></span></button>
+															</div>
+					</li>
+					
+					<li>
+						<a href="turk2.php" class="cat_img">
+							<img src="../picture/8.jpg" width="115" height="180" alt="">
+						</a>
+						<div class="cat_name">
+							<a href="turk2.php" title="Yasak Meyve">
+								Yasak Meyve							</a>
+						</div>
+						<div class="cat_price">
+														<div>
+								17,34 AZN							</div>
+						</div>
+							<div>
+									<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=667841'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+									<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('667841','8');"><span><span>Tıkla-al</span></span></button>
+							</div>
+					</li>
+						
+					<li>
+						<a href="turk3.php" class="cat_img">
+								<img src="../picture/9.jpg" width="117" height="180" alt="">
+						</a>
+						<div class="cat_name">
+							<a href="turk3.php" title="Sıradaki Sensin">
+								Sıradaki Sensin							</a>
+						</div>
+						<div class="cat_price">
+														<div>
+								11,48 AZN							</div>
+						</div>
+								<div>
+									<button type="button" class="button btn-cart" onclick="window.location.href='/?action=ADD2BASKET&amp;id=660555'"><span><span>Səbətə əlavə et!</span></span></button>
+																	&nbsp;
+									<button style="margin-top: 3px;" class="button btn-cart-fast" onclick="fastOrderCatIt('660555','8');"><span><span>Tıkla-al</span></span></button>
+								</div>
+					</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>		
+					
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
